@@ -1,16 +1,15 @@
 const container = document.querySelector("#contenedor");
-let btnDark = document.querySelector("#dark");
-let nav = document.querySelector(".navbar-brand");
-let hr = document.getElementById("hr");
+let btnDark = document.querySelector('#dark');
+let nav = document.querySelector(".navbar-brand")
+let hr = document.getElementById('hr');
 
 let detallePais = JSON.parse(localStorage.getItem("detallePais"));
 detallePais = detallePais !== null ? detallePais : "";
 
 const getDetalle = () => {
-  const { name, population, region, capital, img, Currency, President } =
-    detallePais;
+    const {name,population,region,capital,img,Currency,President} = detallePais;
 
-  container.innerHTML += `
+    container.innerHTML += `
     <div class="card mb-3 m-auto" style="max-width: 970px;">
     <div class="row ">
       <div class="col-md-2 col-img">
@@ -30,32 +29,38 @@ const getDetalle = () => {
       </div>
     </div>
   </div>
-    `;
-  temaDetalle();
-};
+    `
+    temaDetalle()
+}
 
-document.addEventListener("DOMContentLoaded", getDetalle);
+document.addEventListener('DOMContentLoaded',getDetalle)
 
 const temaDetalle = () => {
-  btnDark.addEventListener("click", () => {
-    const card = document.querySelector(".card");
+  
+  btnDark.addEventListener('click', () => {
+    const card = document.querySelector('.card');
     const body = document.querySelector("#body");
-    const textBody = document.querySelectorAll("h5");
-    const spanDato = document.querySelectorAll("span");
+    const textBody = document.querySelectorAll('h5');
+    const spanDato = document.querySelectorAll('span');
 
     body.style.backgroundColor = "hsl(240, 14%, 15%)";
-    nav.style.color = "#FFFF";
+    nav.style.color = "#FFFF"
     btnDark.style.color = "#FFFF";
-    btnDark.style.backgroundColor = "hsl(240, 14%, 15%)";
-    hr.style.backgroundColor = "#FFFF";
+    btnDark.style.backgroundColor ="hsl(240, 14%, 15%)"
+    hr.style.backgroundColor ="#FFFF";
     card.style.backgroundColor = "hsl(240, 9%, 12%)";
 
     for (const iterator of textBody) {
       iterator.style.color = "#FFFF";
+
     }
 
     for (const iterator of spanDato) {
       iterator.style.color = "rgb(171, 228, 225)";
+
     }
-  });
-};
+  })
+}
+
+
+
