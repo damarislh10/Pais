@@ -8,7 +8,6 @@ const contenedor = document.getElementById("contenedor");
 document.addEventListener('DOMContentLoaded', async () =>{
     const data = await getPais();
     showPais(data,contenedor)
-    console.log (data)
 })
 
 
