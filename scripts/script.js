@@ -12,5 +12,15 @@ document.addEventListener('DOMContentLoaded', async () =>{
 })
 
 
+contenedor.addEventListener('click', async(e) => {
+    const btnDetalle = e.target.classList.contains('card-bande');
+    const id = e.target.id;
 
+   if(btnDetalle){
+       const lista = await getPais(urlPais);
+       const objeto = lista.find(pais => pais.id === Number(id));
 
+       localStorage.setItem("detallePais", JSON.stringify(objeto));
+       window.location.href = 'detail.html';
+   }
+})
