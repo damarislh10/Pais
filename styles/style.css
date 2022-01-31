@@ -5,3 +5,12 @@
 .nav a{
     color: #000;
 }
+
+
+.container-fluid{
+    width: 80%;
+}
+
+.btnTema{
+    margin-left: 990px;
+}
