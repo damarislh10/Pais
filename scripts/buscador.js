@@ -1,5 +1,5 @@
 import { urlPais} from './url.js';
-import { showPais } from "./showPais.js";
+
 
 const form = document.getElementById('form');
 const search = document.getElementById('search');
