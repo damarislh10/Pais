@@ -14,3 +14,23 @@
 .btnTema{
     margin-left: 990px;
 }
+#dark{
+    border:none;
+    background:#fff;
+}
+
+.menu{
+    margin-left: 70%;
+}
+
+.btnMenu{
+    color:#000;
+}
+
+.btnMenu:hover{
+    color:#000;
+}
+.btnMenu:focus{
+    color:#000;
+}
+
