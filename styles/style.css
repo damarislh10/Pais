@@ -49,3 +49,8 @@
 .negrita{
     font-weight: bold;
 }
+
+.card-bande{
+    object-fit: cover;
+
+}
