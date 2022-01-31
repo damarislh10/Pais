@@ -1,0 +1,125 @@
+{
+    "paises": [
+        {
+            "id": 1,
+            "name": "Germany",
+            "population": "81,770,900",
+            "region": "Europe",
+            "capital": "Berlín",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/de.png",
+            "Currency": "Euro (€) (EUR)",
+            "President": "Frank-Walter Steinmeier"
+        },
+        {
+            "id": 2,
+            "name": "United States of America",
+            "population": "323,947,000",
+            "region": "Americas",
+            "capital": "Washington, D.C",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/us.png",
+            "Currency": "U.S. dollar ($) (USD)",
+            "President": "Joe Biden"
+
+        },
+        {
+            "id": 3,
+            "name": "Brazil",
+            "population": "206,135,893",
+            "region": "Americas",
+            "capital": "Brasília",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/br.png",
+            "Currency": "Real (R$) (BRL)",
+            "President": "Jair Bolsonaro"
+        },
+        {
+            "id": 4,
+            "name": "Iceland",
+            "population": "334,300",
+            "region": "Europe",
+            "capital": "Reykjavík",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/is.png",
+            "Currency": "Icelandic króna (ISK)",
+            "President": "Guðni Th. Jóhannesson"
+        },
+        {
+            "id": 5,
+            "name": "Afghanistan",
+            "population": "27,657,145",
+            "region": "Asia",
+            "capital": "Kabul",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/af.png",
+            "Currency": "Afghani (افغانی) (AFN)",
+            "President": "Ashraf Ghani"
+        },
+        {
+            "id": 6,
+            "name": "Åland Islands",
+            "population": "28,875",
+            "region": "Europe",
+            "capital": "Mariehamn",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/ax.png",
+            "Currency": "Euro (€) (EUR)",
+            "President": "Peter Lindbäck"
+        },
+        {
+            "id": 7,
+            "name": "Albania",
+            "population": "2,886,026",
+            "region": "Europe",
+            "capital": "Tirana",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/al.png",
+            "Currency": "Lek (ALL)",
+            "President": "Ilir Meta"
+        },
+        {
+            "id": 8,
+            "name": "Algeria",
+            "population": "40,400,000",
+            "region": "Africa",
+            "capital": "Algiers",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/dz.png",
+            "Currency": "Algerian dinar (DZD)",
+            "President": "Abdelmadjid Tebboune"
+        },
+        {
+            "id": 9,
+            "name": "Egypt",
+            "population": "100,052,943",
+            "region": "Africa",
+            "capital": "Cairo",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/eg.png",
+            "Currency": "Egyptian Pound (LE, ج.م, EGP)",
+            "President": "Abdel Fattah el-Sisi"
+        },
+        {
+            "id": 10,
+            "name": "Kenya",
+            "population": "47,564,296",
+            "region": "Africa",
+            "capital": "Nairobi",
+            "img":  "https://www.banderas-mundo.es/data/flags/h80/ke.png",
+            "Currency": "Kenyan shilling (KES)",
+            "President": "Uhuru Kenyatta"
+        },
+        {
+            "id": 11,
+            "name": "South Korea",
+            "population": "51,780,579",
+            "region": "Asia",
+            "capital": "seoul",
+            "img": "https://www.banderas-mundo.es/data/flags/h80/kr.png",
+            "Currency": "South Korean won (₩ / 원, KRW)",
+            "President": "Moon Jae-in"
+        },
+        {
+            "id": 12,
+            "name": "Japan",
+            "population": "126,010,000",
+            "region": "Asia",
+            "capital": "Tokyo",
+            "img":  "https://www.banderas-mundo.es/data/flags/h80/jp.png",
+            "Currency": "Japanese yen (¥)",
+            "President": "Naruhito"
+        }
+    ]
+}
