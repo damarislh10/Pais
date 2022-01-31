@@ -3,7 +3,8 @@ export const showPais = (datos, contenedor) => {
         const {name, id, population, region, capital, img} = element
         contenedor.innerHTML += `
         <div class="card" style="width: 18rem;">
-        <img src="${img}" class="card-img-top" alt="...">
+  
+        <img id=${id} src="${img}" class="card-img-top card-bande" alt="...">
         <div class="card-body">
         <h1>Country: ${name}</h1>
         <h2>Population: ${population}</h2>
