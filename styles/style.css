@@ -18,3 +18,22 @@
     border:none;
     background:#fff;
 }
+
+.menu{
+    margin-left: 70%;
+}
+
+.btnMenu{
+    color:#000;
+}
+
+.btnMenu:hover{
+    color:#000;
+}
+.btnMenu:focus{
+    color:#000;
+}
+
+.li-menu{
+    background-color:#000;
+}
