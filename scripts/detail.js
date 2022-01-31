@@ -36,18 +36,29 @@ const getDetalle = () => {
 document.addEventListener('DOMContentLoaded',getDetalle)
 
 const temaDetalle = () => {
-  let title = document.querySelector('.title');
   
   btnDark.addEventListener('click', () => {
-    const card = document.querySelector('.card')
+    const card = document.querySelector('.card');
     const body = document.querySelector("#body");
+    const textBody = document.querySelectorAll('h5');
+    const spanDato = document.querySelectorAll('span');
+
     body.style.backgroundColor = "hsl(240, 14%, 15%)";
     nav.style.color = "#FFFF"
     btnDark.style.color = "#FFFF";
     btnDark.style.backgroundColor ="hsl(240, 14%, 15%)"
     hr.style.backgroundColor ="#FFFF";
-    card.style.backgroundColor = "hsl(240, 14%, 15%)"
+    card.style.backgroundColor = "hsl(240, 9%, 12%)";
 
+    for (const iterator of textBody) {
+      iterator.style.color = "#FFFF";
+
+    }
+
+    for (const iterator of spanDato) {
+      iterator.style.color = "rgb(171, 228, 225)";
+
+    }
   })
 }
 
