@@ -2,17 +2,16 @@ export const showPais = (datos, contenedor) => {
     datos.forEach(element => {
         const {name, id, population, region, capital, img} = element
         contenedor.innerHTML += `
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 16rem;">
         <img src="${img}" class="card-img-top" alt="...">
         <div class="card-body">
-        <h1>Country: ${name}</h1>
-        <h2>Population: ${population}</h2>
-        <h2>Region: ${region} </h2>
-        <h2>Capital: ${capital}  </h2>
+        <h1 class = "fs-5"> ${name}</h1>
+        <p><span class="negrita">Population:</span> ${population}</p>
+        <p><span class="negrita">Region:</span> ${region} </p>
+        <p><span class="negrita">Capital:</span> ${capital}  </p>
         </div>
       </div>
         `
 
-        
     });
 } 

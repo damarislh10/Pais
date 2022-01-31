@@ -38,3 +38,14 @@
     position:absolute;
     margin-left: -9%;
 }
+
+/* Diseño Cards */
+
+.card {
+    display: inline-block !important;
+    margin: 20px;
+}
+
+.negrita{
+    font-weight: bold;
+}
