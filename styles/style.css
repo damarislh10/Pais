@@ -14,3 +14,7 @@
 .btnTema{
     margin-left: 990px;
 }
+#dark{
+    border:none;
+    background:#fff;
+}
