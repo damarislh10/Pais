@@ -16,7 +16,7 @@ form.addEventListener('submit', async(e)=> {
     if( resultSearch !== undefined) {      
         const {id, name, img, population,region, capital} = resultSearch;
         contenedor.innerHTML = `
-        <div class="card" style="width: 16rem;">
+        <div class="card mt-5" style="width: 16rem;">
             <img id="${id}" src="${img}" class="card-img-top card-bande" alt="...">
         <div class="card-body">
             <h1 class = "fs-5"> ${name}</h1>
