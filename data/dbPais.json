@@ -120,6 +120,37 @@
             "img":  "https://www.banderas-mundo.es/data/flags/h80/jp.png",
             "Currency": "Japanese yen (¥)",
             "President": "Naruhito"
+        },
+        {
+            "id": 13,
+            "name": "Australia",
+            "population": "25,627,280",
+            "region": "Oceania",
+            "capital": "Canberra",
+            "img":  "https://www.banderas-mundo.es/data/flags/h80/au.png",
+            "Currency": "Australian dollar ($, AUD)",
+            "President": "David Hurley"
+        },
+        {
+            "id": 14,
+            "name": "New Zealand",
+            "population": "4,961,213",
+            "region": "Oceania",
+            "capital": "Wellington",
+            "img":  "https://www.banderas-mundo.es/data/flags/h80/nz.png",
+            "Currency": "New Zealand dollar ( NZD)",
+            "President": "Cindy Kiro"
+        },
+        {
+            "id": 15,
+            "name": "Indonesia",
+            "population": "266,911,900",
+            "region": "Oceania",
+            "capital": "Jakarta",
+            "img":  "https://www.banderas-mundo.es/data/flags/h80/id.png",
+            "Currency": "Indonesian rupiah (Rp) (IDR)",
+            "President": "Joko Widodo"
         }
+
     ]
 }
