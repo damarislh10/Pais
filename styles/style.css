@@ -12,7 +12,7 @@
 }
 
 .btnTema{
-    margin-left: 990px;
+    margin-left: 900px;
 }
 #dark{
     border:none;
@@ -20,20 +20,21 @@
 }
 
 #select{
-    margin-left: 54%;
+    margin-left: 58%;
 }
 
 
 .imgIcon{
     position:absolute;
-    margin-left: -9%;
+    margin-left: -11%;
 }
 
 /* Diseño Cards */
 
 .card {
     display: inline-block !important;
-    margin: 15px;
+    margin: auto;
+    margin-left:5%
 }
 
 .negrita{
