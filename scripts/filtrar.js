@@ -23,13 +23,13 @@ selectValue.addEventListener('change', async(e) =>{
         if(region === options ) {
            
             contenedor.innerHTML += `
-            <div class="card" style="width: 16rem;">
-                <img id="${id}" src="${img}" class="card-img-top card-bande" alt="...">
+            <div class="card pintar mt-5" style="width: 16rem;">
+            <img id="${id}" src="${img}" class="card-bande" alt="...">
             <div class="card-body">
-                <h1 class = "fs-5"> ${name}</h1>
-                <p><span class="negrita">Population:</span> ${population}</p>
-                <p><span class="negrita">Region:</span> ${region} </p>
-                <p><span class="negrita">Capital:</span> ${capital}  </p>
+            <h1 class = "title-name"> ${name}</h1>
+            <p><span class="negrita">Population:</span> ${population}</p>
+            <p><span class="negrita">Region:</span> ${region} </p>
+            <p><span class="negrita">Capital:</span> ${capital}  </p>
             </div>
           </div>
             `

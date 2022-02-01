@@ -12,15 +12,16 @@
 }
 
 .btnTema{
-    margin-left: 900px;
+    margin-left: 740px;
 }
 #dark{
     border:none;
     background:#fff;
+    padding-top:0;
 }
 
 #select{
-    margin-left: 58%;
+    margin-left: 67%;
 }
 
 
@@ -32,9 +33,9 @@
 /* Diseño Cards */
 
 .card {
-    display: inline-block !important;
+    display: inline-flex !important;
     margin: auto;
-    margin-left:5%
+
 }
 
 .negrita{
@@ -43,5 +44,11 @@
 
 .card-bande{
     object-fit: cover;
+    height: 150px;
 
+}
+
+.title-name{
+    font-size:18px;
+    font-weight: bold;
 }
