@@ -4,4 +4,4 @@
 
 - Damaris Hernandez
 - Anyelith Jacobo
-- Brahian Jacobo
+- Brahian Alzate
